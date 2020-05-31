@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity time</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet"> 
+<body>
+  
+    <h1 class="ml8">
+        <span class="letters-container">
+          <span class="letters letters-left">Activity Time</span>
+          <span class="letters bang">!</span>
+        </span>
+        <span class="circle circle-white"></span>
+        <span class="circle circle-dark"></span>
+        <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+      </h1>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+
+    <p id= "message"> The Activity Time website, is a place where you can share projects and activites that you can do  
+        at home with children of any age. This website was made to have families come together and enjoy one everyones company
+    playing games, making projects, or just getting up and being active. It is not fun for anybody to be at home and have NOTHING
+    to do, so take a look through our site for some fun filled activites! </p>
+
+
+    <p class ="types">Project types</p>
+
+        <div class ="projects"></div>
+
+        <section class ="category">
+            <div id="art">
+                <a href="Art"><h3>Art</h3><img src= "../resources/paintbrushes.jpg" width= 250 height = 200></a>
+            </div>
+
+            <div id ="music"> 
+                <a href= "Music"><h3>Music</h3><img src= "../resources/Music.jpg" width= 250 height = 200></a>
+            </div>
+                
+            
+            <div id= "writing">
+                <a href= "writing"><h3>Writing</h3><img src= "../resources/writing.jpg" width= 250 height = 200></a>
+            </div>
+
+            <div id = "imagination">
+                <a href= "imagination"><h3>Imagination</h3><img src= "../resources/imagination.jpg" width= 250 height = 200></a>
+            </div>
+        </section>
+
+        <p id ="jokes" >Just in case you needed a good laugh, here are some jokes!!</p> 
+        
+        <div class ="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NMIjkqZFN9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rgtJhkz_4EU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        </div>
+
+    <div class="subscribe">
+    <p> Subscribe to our email list: </p>   
+    <input type ="text" name="email" />
+    <input type ="submit" name ="subscribe" value ="subscribe"/>
+</div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBIrPE8_-FBxXLN_AZi37QE14V29hMotlc",
+    authDomain: "activity-time-82047.firebaseapp.com",
+    databaseURL: "https://activity-time-82047.firebaseio.com",
+    projectId: "activity-time-82047",
+    storageBucket: "activity-time-82047.appspot.com",
+    messagingSenderId: "953630973028",
+    appId: "1:953630973028:web:b3ff80fa08075b4a66d371",
+    measurementId: "G-FQ2E46JP2K"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  
+</script>
+<nav class = "list" >           
+    <a href= "home">Home</a>
+    <a href= "about us">About us</a>
+    <a href= "suggestions">Suggestions</a>
+</nav>
+<script src="script.js"></script>
+
+</body>
+</html>

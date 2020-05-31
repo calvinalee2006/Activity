@@ -1,0 +1,219 @@
+/* Body edit */
+
+body {
+    background-color: #50638F;
+}
+
+/* Title animation */
+
+h1.ml8 {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: #fff;
+    width: 3em;
+    height: 6em;
+    
+  }
+  
+  .ml8 .letters-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 1em;
+  }
+  
+  .ml8 .letters {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    line-height: 0.7em;
+    right: -6em;
+    top: -0.2em;
+  }
+  
+  .ml8 .bang {
+    font-size: 1.4em;
+    top: auto;
+    right: -4em;
+  }
+  
+  .ml8 .circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .ml8 .circle-white {
+    width: 3em;
+    height: 3em;
+    border: 2px dashed white;
+    border-radius: 2em;
+  }
+  
+  .ml8 .circle-dark {
+    width: 2.2em;
+    height: 2.2em;
+    background-color: #4f7b86;
+    border-radius: 3em;
+    z-index: 1;
+  }
+  
+  .ml8 .circle-dark-dashed {
+    border-radius: 2.4em;
+    background-color: transparent;
+    border: 2px dashed #4f7b86;
+    width: 2.3em;
+    height: 2.3em;
+  }
+
+  /* Introduction */
+
+  .title {
+      text-align:center;
+      padding: 5px;
+      margin: 5px;
+      font-family: 'Libre Baskerville', serif;
+      background-color:blue;
+      font-size:30px;
+  }
+ /* Project types */
+  #message {
+      font-size:35px;
+      color:white;
+      padding: 10px;
+  }
+
+  .types {
+      text-align:center;
+      color:white;
+      text-decoration: underline;
+      font-family: 'Libre Baskerville', serif;
+      font-size:60px;
+      padding: 0px;
+      margin:0px;
+  }
+
+  .projects {
+    padding: 20px;
+  }
+ 
+
+  .category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px
+  }
+
+ 
+ #art{
+      box-sizing:border-box;
+      font-family:'Libre Baskerville', serif;
+      font-size:20px;
+      text-align:center;
+      border: 5px solid black;
+      padding: 20px;
+      display:inline-block;
+}    
+    #music {
+        box-sizing:border-box;  
+        font-family:'Libre Baskerville', serif;
+        font-size:20px;
+        box-sizing:content-box;
+        border: 5px solid black;
+        text-align:center;
+        padding: 20px;
+        display: inline-block;
+    }
+
+    #writing {
+        text-align:center;
+        font-family:'Libre Baskerville', serif;
+        font-size:60px;
+        border: 5px solid black;
+        padding: 20px;  
+        display:inline-block;
+    }
+
+    #imagination {
+        text-align:center;
+        font-family:'Libre Baskerville', serif;
+        font-size:60px;
+        border: 5px solid black;
+        padding: 20px;
+        display:inline-block;
+    }
+
+    .list {
+        font-size: 40px;
+        text-align:center;
+        list-style: none;
+        padding: 20px;
+        margin: 20px;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+    /* link Styles */
+    
+    a:link {
+        text-decoration:none;
+        color:white;
+        font-size: 30px;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color:white;
+      }
+    
+      a:hover {
+        text-decoration:underline;
+        color:#773e30;
+      }
+    
+      a:active {
+        text-decoration: none;
+        color: #583127;
+      }
+
+      /* jokes */
+
+    #jokes {
+        text-align:center;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:30px;
+        
+      }
+
+      /*Video*/
+    .video {
+        margin-left: 80px;
+    }
+    
+
+      /* sharing */
+
+    #sharing {
+        text-align:center;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:30px;
+    }
+
+    .subscribe {
+        text-align: center;
+        font-size: 30px;
+        color:white;
+    }
+
+
+
+
+ 

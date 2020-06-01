@@ -12,7 +12,6 @@ h1.ml8 {
     color: #fff;
     width: 3em;
     height: 6em;
-    
   }
   
   .ml8 .letters-container {
@@ -87,6 +86,7 @@ h1.ml8 {
       font-size:35px;
       color:white;
       padding: 10px;
+      margin-top:90px;
   }
 
   .types {
